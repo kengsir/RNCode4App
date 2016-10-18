@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		C82612AD1DB39851006646FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C82612AC1DB39851006646FE /* main.m */; };
 		C82612B01DB39851006646FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C82612AF1DB39851006646FE /* AppDelegate.m */; };
-		C82612B31DB39851006646FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82612B21DB39851006646FE /* ViewController.m */; };
+		C82612B31DB39851006646FE /* C4TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82612B21DB39851006646FE /* C4TabBarViewController.m */; };
 		C82612B61DB39851006646FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82612B41DB39851006646FE /* Main.storyboard */; };
 		C82612B81DB39851006646FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82612B71DB39851006646FE /* Assets.xcassets */; };
 		C82612BB1DB39851006646FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82612B91DB39851006646FE /* LaunchScreen.storyboard */; };
+		C8EE2C911DB3A68900DA6AF8 /* UIImage+C4_Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EE2C901DB3A68900DA6AF8 /* UIImage+C4_Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,16 @@
 		C82612AC1DB39851006646FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C82612AE1DB39851006646FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C82612AF1DB39851006646FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C82612B11DB39851006646FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C82612B21DB39851006646FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C82612B11DB39851006646FE /* C4TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4TabBarViewController.h; sourceTree = "<group>"; };
+		C82612B21DB39851006646FE /* C4TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4TabBarViewController.m; sourceTree = "<group>"; };
 		C82612B51DB39851006646FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C82612B71DB39851006646FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C82612BA1DB39851006646FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C82612BC1DB39851006646FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82612C21DB39C97006646FE /* Define_Basic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define_Basic.h; sourceTree = "<group>"; };
+		C82612C31DB39E1C006646FE /* Code4App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Code4App-Prefix.pch"; sourceTree = "<group>"; };
+		C8EE2C8F1DB3A68900DA6AF8 /* UIImage+C4_Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+C4_Color.h"; sourceTree = "<group>"; };
+		C8EE2C901DB3A68900DA6AF8 /* UIImage+C4_Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+C4_Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		C826129F1DB39851006646FE = {
 			isa = PBXGroup;
 			children = (
+				C82612C31DB39E1C006646FE /* Code4App-Prefix.pch */,
 				C82612AA1DB39851006646FE /* Code4App */,
 				C82612A91DB39851006646FE /* Products */,
 			);
@@ -58,10 +64,12 @@
 		C82612AA1DB39851006646FE /* Code4App */ = {
 			isa = PBXGroup;
 			children = (
+				C8EE2C871DB3A5AE00DA6AF8 /* Category */,
+				C82612C21DB39C97006646FE /* Define_Basic.h */,
 				C82612AE1DB39851006646FE /* AppDelegate.h */,
 				C82612AF1DB39851006646FE /* AppDelegate.m */,
-				C82612B11DB39851006646FE /* ViewController.h */,
-				C82612B21DB39851006646FE /* ViewController.m */,
+				C82612B11DB39851006646FE /* C4TabBarViewController.h */,
+				C82612B21DB39851006646FE /* C4TabBarViewController.m */,
 				C82612B41DB39851006646FE /* Main.storyboard */,
 				C82612B71DB39851006646FE /* Assets.xcassets */,
 				C82612B91DB39851006646FE /* LaunchScreen.storyboard */,
@@ -77,6 +85,23 @@
 				C82612AC1DB39851006646FE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8EE2C871DB3A5AE00DA6AF8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C8EE2C881DB3A5C100DA6AF8 /* UIImage */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C8EE2C881DB3A5C100DA6AF8 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C8EE2C8F1DB3A68900DA6AF8 /* UIImage+C4_Color.h */,
+				C8EE2C901DB3A68900DA6AF8 /* UIImage+C4_Color.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C82612B31DB39851006646FE /* ViewController.m in Sources */,
+				C82612B31DB39851006646FE /* C4TabBarViewController.m in Sources */,
 				C82612B01DB39851006646FE /* AppDelegate.m in Sources */,
+				C8EE2C911DB3A68900DA6AF8 /* UIImage+C4_Color.m in Sources */,
 				C82612AD1DB39851006646FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +235,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Code4App-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -254,6 +282,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Code4App-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -310,6 +340,7 @@
 				C82612C11DB39851006646FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

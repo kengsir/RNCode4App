@@ -1,0 +1,17 @@
+//
+//  Code4App-Prefix.pch
+//  Code4App
+//
+//  Created by Kengsir on 2016/10/16.
+//  Copyright © 2016年 com.imessage. All rights reserved.
+//
+
+#ifndef Code4App_Prefix_pch
+#define Code4App_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Define_Basic.h"
+
+#endif /* Code4App_Prefix_pch */
